@@ -64,7 +64,7 @@ int Search(const IntStack *s, int x) {
 void Print(const IntStack *s) {
     int i;
     for(i = 0; i < s->ptr; i++)
-        printf("%d", s->stk[i]);
+        printf("%d ", s->stk[i]);
     putchar( '\n');
 }
 
