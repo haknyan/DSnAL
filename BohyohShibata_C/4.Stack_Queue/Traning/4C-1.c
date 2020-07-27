@@ -19,9 +19,9 @@ int main() {
 
     i = cnt - N;
     if(i < 0) i = 0;
-    for(; i < cmt; i++)
+    for(; i < cnt; i++)
         printf("%2d번째 정수 = %d\n", i + 1, a[1 % N]);
 
     return 0;
-    
+
 }
